@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Naturexpresscargo" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorSecondaryVariant">@color/accent_yellow</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+
+        <!-- Background colors. -->
+        <item name="android:colorBackground">@color/background_white</item>
+        <item name="colorSurface">@color/surface_white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_green</item>
+
+        <!-- Text colors. -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <!-- Popup menu style -->
+        <item name="popupMenuStyle">@style/Widget.App.PopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.App.PopupMenu</item>
+    </style>
+
+    <style name="Theme.Naturexpresscargo" parent="Base.Theme.Naturexpresscargo" />
+
+    <style name="Theme.Naturexpresscargo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Widget.App.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.App.DatePicker" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSurface">@color/background_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+    </style>
+</resources>
+

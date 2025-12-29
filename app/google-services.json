@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "501530236030",
+    "firebase_url": "https://naturexpresscargo-6bbac-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "naturexpresscargo-6bbac",
+    "storage_bucket": "naturexpresscargo-6bbac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501530236030:android:95dcc1538222816e23b42f",
+        "android_client_info": {
+          "package_name": "com.naturexpresscargo.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfGiK83GgDzGCnRbnfQ2FT_iwx0W_R084"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501530236030:android:9bffcd57a857abe523b42f",
+        "android_client_info": {
+          "package_name": "com.naturexpresscargo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfGiK83GgDzGCnRbnfQ2FT_iwx0W_R084"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

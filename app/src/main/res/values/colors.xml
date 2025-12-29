@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Nature Green Theme -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#4CAF50</color>
+
+    <!-- Accent Colors - Express Orange/Yellow -->
+    <color name="accent_orange">#FF6F00</color>
+    <color name="accent_yellow">#FFA000</color>
+
+    <!-- Secondary Colors - Professional Blue -->
+    <color name="secondary_blue">#1976D2</color>
+    <color name="secondary_blue_dark">#0D47A1</color>
+    <color name="secondary_blue_light">#42A5F5</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="surface_white">#FAFAFA</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+
+    <!-- Card & UI Element Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="ripple_color">#20000000</color>
+
+    <!-- Legacy/Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
