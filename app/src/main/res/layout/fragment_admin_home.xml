@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                android:backgroundTint="@color/no_shadow_color"
                 app:cardUseCompatPadding="true">
 
                 <LinearLayout
@@ -161,7 +161,7 @@
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="4dp"
                 app:cardUseCompatPadding="true">
 
                 <LinearLayout

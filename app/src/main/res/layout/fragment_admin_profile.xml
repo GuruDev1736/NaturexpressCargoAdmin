@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="16dp"
-            app:cardElevation="8dp"
+            android:backgroundTint="@color/no_shadow_color"
             app:cardUseCompatPadding="true"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -80,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="16dp"
-            app:cardElevation="8dp"
+            android:backgroundTint="@color/no_shadow_color"
             app:cardUseCompatPadding="true"
             app:layout_constraintTop_toBottomOf="@id/profile_header_card">
 

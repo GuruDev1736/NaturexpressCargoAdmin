@@ -2,6 +2,7 @@ package com.naturexpresscargo.admin.fragments
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -75,11 +76,7 @@ class AdminServicesFragment : Fragment() {
             .setValue(updatedService)
             .addOnSuccessListener {
                 val status = if (updatedService.active) "activated" else "deactivated"
-                android.widget.Toast.makeText(
-                    requireContext(),
-                    "Service $status successfully",
-                    android.widget.Toast.LENGTH_SHORT
-                ).show()
+                Log.d("AdminServicesFragment", "Service status updated to $status")
             }
             .addOnFailureListener { error ->
                 android.widget.Toast.makeText(

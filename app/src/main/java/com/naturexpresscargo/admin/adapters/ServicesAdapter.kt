@@ -8,7 +8,8 @@ import com.naturexpresscargo.admin.R
 import com.naturexpresscargo.admin.databinding.ItemServiceBinding
 import com.naturexpresscargo.admin.models.Service
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 class ServicesAdapter(
     private val services: List<Service>,
@@ -39,12 +40,20 @@ class ServicesAdapter(
 
             if (service.active) {
                 statusLabel.text = "Active"
+                statusSwitch.trackTintList = ContextCompat.getColorStateList(
+                    root.context,
+                    R.color.success_green
+                )
                 statusLabel.setTextColor(
                     ContextCompat.getColor(root.context, R.color.success_green)
                 )
                 statusSwitch.isChecked = true
             } else {
                 statusLabel.text = "Inactive"
+                statusSwitch.trackTintList = ContextCompat.getColorStateList(
+                    root.context,
+                    R.color.error_red
+                )
                 statusLabel.setTextColor(
                     ContextCompat.getColor(root.context, R.color.text_hint)
                 )
